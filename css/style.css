@@ -195,7 +195,11 @@ li {
 .screen .screen_products .card_products .product p {
     display: flex;
     color: var(--primary-color);
-    margin-top: 14%;
+    margin-top: 6%;
     font-weight: bold;
     font-size: 14px;
+}
+
+.screen .screen_products .card_products .product p img {
+    margin-left: 5%;
 }
