@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;700;900&display=swap');
 
 /* Global Settings */
 
@@ -22,7 +23,7 @@ body {
     background-color: var(--color-background);
 }
 
-li {
+li,a {
     text-decoration: none;
     list-style: none;
     display: inline;
@@ -64,13 +65,18 @@ li {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    margin-bottom: 2%;
+}
+
+.screen .actual_time {
+    font-weight: 600;
 }
 
 .screen .geometrical_obejct {
     background-color: var(--color-background);
     border: solid;
     height: 25px;
-    width: 50%;
+    width: 175px;
     border-radius: 0 0 15px 15px;
 }
 
@@ -167,6 +173,7 @@ li {
     overflow-x: auto;
     padding: 0 4%;
     max-height: 200px;
+    cursor: pointer;
 }
 
 .screen .screen_products .card_products::-webkit-scrollbar {
@@ -185,11 +192,12 @@ li {
     min-width: 326px;
 }
 
-.screen .screen_products .card_products .product h3 {
+.screen .screen_products .card_products .product h2 {
     font-size: 22px;
     font-weight: bold;
     letter-spacing: 1px;
     word-wrap: break-word;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .screen .screen_products .card_products .product p {
