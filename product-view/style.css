@@ -1,0 +1,5 @@
+.screen .screen_menu2 .menu2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 5% 4%;
+}

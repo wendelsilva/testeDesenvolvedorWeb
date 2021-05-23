@@ -117,7 +117,7 @@ li {
 .screen section .search_bar input {
     position: absolute;
     width: 326px;
-    height: 5%;
+    height: 45px;
     padding: 0 40px;
     border: 1px solid var(--color-outline);
     border-radius: 10px;
@@ -166,7 +166,7 @@ li {
     display: flex;
     overflow-x: auto;
     padding: 0 4%;
-    max-height: 178px;
+    max-height: 200px;
 }
 
 .screen .screen_products .card_products::-webkit-scrollbar {
@@ -202,4 +202,72 @@ li {
 
 .screen .screen_products .card_products .product p img {
     margin-left: 5%;
+}
+
+.screen main .screen_products .products_title {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 4%;
+}
+
+.screen main .screen_products h3 {
+    font-size: 16px;
+}
+
+.screen main .screen_products p {
+    font-size: 14px;
+    color: var(--color-text);
+}
+
+.screen main .screen_products .products_catalog {
+    display: flex;
+    padding: 0 4%;
+    overflow-x: auto;
+    max-height: 255px;
+}
+
+.screen main .screen_products .products_catalog::-webkit-scrollbar {
+    width: 0;
+}
+
+.screen main .screen_products .products_catalog .catalog_product, .catalog_product2 {
+    background-color: var(--screen-background);
+    width: 155px;
+    height: 213px;
+    text-align: center;
+    border-radius: 15px;
+    margin-top: 7%;
+    margin-right: 5%;
+    min-width: 155px;
+}
+
+
+.screen main .screen_products .products_catalog .catalog_product p {
+    color: var(--color-background);
+    font-size: 14px;
+    text-align: start;
+    padding: 0 5%;
+}
+
+.screen main .screen_products .products_catalog .catalog_product p ~ p {
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 2%;
+}
+
+.screen main .screen_products .products_catalog .catalog_product2 div {
+    margin-top: 8%;
+}
+
+.screen main .screen_products .products_catalog .catalog_product2 div p {
+    color: var(--color-background);
+    font-size: 14px;
+    text-align: start;
+    padding: 0 5%;
+}
+
+.screen main .screen_products .products_catalog .catalog_product2 div p ~ p {
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 2%;
 }
