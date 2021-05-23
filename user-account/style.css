@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+/* Global Settings */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+    --color-background: #000000;
+    --color-lightBackground: #f6f6f6;
+    --color-exborder: #202020;
+    --color-midborder: #404040;
+    --screen-background: #FFFFFF;
+    --color-outline: #bababa;
+    --color-text: #7f7f7f;
+    --primary-color: #0ACF83;
+
+}
+
+/* Tittle page Settings and Style */
+
+.screen .screen_menu3 .menu3 {
+    display: flex;
+    padding: 2% 4%;
+}
+
+.screen .screen_menu3 .menu3 li:last-child {
+    margin: auto;
+    font-weight: bold;
+}
+
+.screen .screen_menu3 .menu3 li:first-child, .screen .status_bar li {
+    border: none;
+}
+
+/* Account opitions(Frame 62) Settings and Style */
+
+.screen .user_informations {
+    display: flex;
+    align-items: center;
+    padding: 8% 4%;
+}
+
+.screen .user_informations img {
+    margin-right: 10%;
+}
+
+.screen .user_informations p ~ p {
+    font-size: 14px;
+    color: var(--color-text);
+}
+
+.screen .general {
+    display: flex;
+    flex-direction: column;
+    padding: 5% 0;
+}
+
+.screen .general p {
+    font-size: 14px;
+    color: var(--color-text);
+    margin-bottom: 8%;
+    padding: 0 4%;
+}
+
+.screen .general .general_itens {
+    display: grid;
+}
+
+.screen .general .general_itens .itens{
+    border-bottom: 1px solid rgba(0, 0, 0, 15%);
+    padding: 2% 4%;
+}
+
+.screen .general .general_itens .itens2 {
+    border-bottom: 1px solid rgba(0, 0, 0, 10%);
+    padding: 2% 4%;
+}
+
+.screen .general .general_itens li:not(:last-child) {
+    margin-bottom: 5%;
+}

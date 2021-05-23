@@ -29,6 +29,10 @@ li,a {
     display: inline;
 }
 
+hr {
+    opacity: 15%;
+}
+
 /* Mockup Settings and Style */
 
 .mockup {
@@ -97,6 +101,10 @@ li,a {
 
 .screen .screen_menu nav .menu li figure img {
     margin-right: 5px;
+}
+
+.screen .screen_menu nav .menu li img {
+    cursor: pointer;
 }
 
 /* Screen Title(Frame 31) Settings and Style */
