@@ -11,5 +11,5 @@
 
 # Tecnologias
  ### HTML
- ### CSS
+ ### CSS(Flex Box)
  ### JS
