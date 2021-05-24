@@ -1,4 +1,4 @@
-# testeDesenvolvedorWeb
+# Teste Desenvolvedor Web
  teste para desenvolvedor web na MaquiADORO
 
 # Metodologia
@@ -10,6 +10,6 @@
  Com esse projeto conseguir rever conceitos mais básicos de html e css alem de aprender novas funcionalidades como o scroll horizontal que mantem um item oculto até que a barra seja rolada para o lado alternando os itens. tambem revir conceitos do javascript como o windows.location.href que redireciona para outras páginas tanto localmente como externamente.
 
 # Tecnologias
- ## HTML
- ## CSS
- ## JS
+ ### HTML
+ ### CSS
+ ### JS
