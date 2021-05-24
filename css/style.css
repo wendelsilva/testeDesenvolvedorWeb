@@ -154,7 +154,7 @@ hr {
 .screen .screen_products {
     background-color: var(--color-lightBackground);
     width: 374px;
-    height: 560px;
+    height: 550px;
     border-radius: 30px 30px 22px 22px;
 }
 
