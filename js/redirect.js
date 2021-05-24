@@ -5,3 +5,7 @@ function toProduct() {
 function toAccount() {
     window.location.href = "user-account/user.html"
 }
+
+function toCart() {
+    window.location.href = "../user-cart/cart.html"
+}
