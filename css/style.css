@@ -29,6 +29,10 @@ li,a {
     display: inline;
 }
 
+a {
+    color: var(--color-background);
+}
+
 hr {
     opacity: 15%;
 }
